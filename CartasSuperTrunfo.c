@@ -47,10 +47,10 @@ void exibirCartas(Carta cartas[], int qtd) {
 
 int main() {
     Carta cartas[MAX_CARTAS] = {
-        {"São Paulo", "SP01", "São Paulo", 12300000, 1521.11, 699000.00, 10} // Exemplo pré-cadastrado
+        {"São Paulo", "SP01", "São Paulo", 12300000, 1521.11, 699000.00, 10} 
     };
 
-    int qtdCartas = 1; // Iniciando com 1 carta cadastrada (São Paulo)
+    int qtdCartas = 1; 
     int opcao;
 
     printf("Deseja cadastrar mais cartas? (1 - Sim / 0 - Não): ");
